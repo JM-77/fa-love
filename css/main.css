@@ -5604,7 +5604,7 @@ line-height: 30px;
 
 
 
-@media (min-width:320px) {
+@media (max-width:767px) {
 #pic0{
 		background-image: url(../img/xs/0.jpg);
 
@@ -5635,7 +5635,7 @@ line-height: 30px;
 
 
 
-@media (min-width:960px) {
+@media (min-width:768px) {
 #pic0{
 		background-image: url(../img/xs/0.jpg);
 
