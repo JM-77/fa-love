@@ -5583,7 +5583,7 @@ line-height: 30px;
 
 div p.nr4:before {
 	white-space: pre-line;
-	content:"睿木果子落尘世，自小聪颖悦人，\A与之亲近，幸运加身，添之七分格物，三分致志，读懂人心。\A成长经年，温良恭俭，唯有善心正道，尽是无边恻忍。\A自是睿木纯德，智圣合一，如斯美哉。\A我与卿相知：可否以心？可否以善？可否厢守？\A愿卿复言：愿得一人心，悠悠千古情。";
+	content:"睿木果子落尘世，自小聪颖悦人，\A与之亲近，幸运加身，添之七分格物，三分致志，读懂人心。\A成长经年，温良恭俭，唯有善心正道，尽是无边恻忍。\A我与卿相知：可否以心？可否以善？可否厢守？\A愿卿复言：愿得一人心，悠悠千古情。";
 line-height: 30px;
 font-weight:400;
 }
@@ -5601,7 +5601,41 @@ line-height: 30px;
 
 
 /*xs css*/
-@media (min-width:768px) {
+
+
+
+@media (min-width:640px) {
+#pic0{
+		background-image: url(../img/xs/0.jpg);
+
+    padding: 50% 0 0 0;
+        background-repeat:  no-repeat;
+      background-size:100%;
+	
+	}
+	
+	#pic1{
+		background-image: url(../img/xs/1.jpg);
+		padding: 50% 0 0 0;
+        background-repeat:  no-repeat;
+      background-size: 100%;
+	
+	}
+	
+	#pic2{
+		background-image: url(../img/xs/2.jpg);
+		 padding: 50% 0 0 0;
+        background-repeat:  no-repeat;
+      background-size: 100%;
+	 
+	}
+	
+}
+
+
+
+
+@media (min-width:960px) {
 #pic0{
 		background-image: url(../img/xs/0.jpg);
 
@@ -5629,33 +5663,7 @@ line-height: 30px;
 	
 }
 
-@media (max-width:767px) {
-#pic0{
-		background-image: url(../img/xs/0.jpg);
 
-    padding: 41.5% 0 0 0;
-        background-repeat:  no-repeat;
-      background-size:100%;
-	
-	}
-	
-	#pic1{
-		background-image: url(../img/xs/1.jpg);
-		padding: 52.3% 0 0 0;
-        background-repeat:  no-repeat;
-      background-size: 100%;
-	
-	}
-	
-	#pic2{
-		background-image: url(../img/xs/2.jpg);
-		 padding: 56.2% 0 0 0;
-        background-repeat:  no-repeat;
-      background-size: 100%;
-	 
-	}
-	
-}
 
 
 
