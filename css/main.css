@@ -5604,7 +5604,7 @@ line-height: 30px;
 
 
 
-@media (max-width:767px) {
+@media (max-width:640px) {
 #pic0{
 		background-image: url(../img/xs/0.jpg);
 
@@ -5634,12 +5634,11 @@ line-height: 30px;
 
 
 
-
-@media (min-width:768px) {
+@media (min-width:641px) {
 #pic0{
 		background-image: url(../img/xs/0.jpg);
 
-    padding: 22.7% 0 0 0;
+    padding: 30% 0 0 0;
         background-repeat:  no-repeat;
       background-size:100%;
 	
@@ -5647,7 +5646,7 @@ line-height: 30px;
 	
 	#pic1{
 		background-image: url(../img/xs/1.jpg);
-		padding: 28.1% 0 0 0;
+		padding: 30% 0 0 0;
         background-repeat:  no-repeat;
       background-size: 100%;
 	
@@ -5655,7 +5654,7 @@ line-height: 30px;
 	
 	#pic2{
 		background-image: url(../img/xs/2.jpg);
-		 padding: 28.1% 0 0 0;
+		 padding: 30% 0 0 0;
         background-repeat:  no-repeat;
       background-size: 100%;
 	 
@@ -5663,9 +5662,3 @@ line-height: 30px;
 	
 }
 
-
-
-
-
-
-	
