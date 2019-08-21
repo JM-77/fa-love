@@ -257,7 +257,7 @@ html {
 }
 body {
  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
- font-size:18px;
+ font-size:14px;
  line-height:1.42857143;
  color:#454545;
  background-color:#fff
@@ -5561,21 +5561,24 @@ ul.social>li>a:hover {
 
 div p.nr1:before {
 	white-space: pre-line;
-	content:"关雎善尘世，小悦致凌仙。\A得卿始玄牝，浴神无尚贤。\A";
+	content:"关雎善尘世，\A小悦致凌仙。\A得卿始玄牝，\A浴神无尚贤。\A";
 line-height: 30px;
+          font-size: 20px;
 }
 
 
 div p.nr2:before {
 	white-space: pre-line;
-		content:"云云天物长守，抱朴时时隐名。\A驰骋盈冲若用，逍遥莫语藜羹。\A";
+		content:"天物云云长守，\A时时抱朴隐名。\A驰骋盈冲若用，\A逍遥莫语藜羹。\A";
 line-height: 30px;
+        font-size: 20px;
 }
 
 div p.nr3:before {
 	white-space: pre-line;
-	content:"斗转星移四度秋，撷花拭镜蜜柔柔。\A絪缊微眇迴青翰，寤寐劳思著力修。\A";
+	content:"斗转星移四度秋，\A撷花拭镜蜜柔柔。\A絪缊微眇迴青翰，\A寤寐劳思著力修。\A";
 line-height: 30px;
+          font-size: 20px;
 }
 
 
@@ -5583,9 +5586,9 @@ line-height: 30px;
 
 div p.nr4:before {
 	white-space: pre-line;
-	content:"睿木果子落尘世，自小聪颖悦人，\A与之亲近，幸运加身，添之七分格物，三分致志，读懂人心。\A成长经年，温良恭俭，唯有善心正道，尽是无边恻忍。\A我与卿相知：可否以心？可否以善？可否厢守？\A愿卿复言：愿得一人心，悠悠千古情。";
+	content:"睿木果子落尘世，自小聪颖悦人，\A与之亲近，幸运加身，添之七分格物，三分致志，读懂人心。\A成长经年，温良恭俭，唯有善心正道，尽是无边恻忍。\A自是睿木纯德，智圣合一，如斯美哉。\A我与卿相知：可否以心？可否以善？可否厢守？\A愿卿复言：愿得一人心，悠悠千古情。";
 line-height: 30px;
-font-weight:400;
+
 }
 div p.nr5:before {
 	white-space: pre-line;
@@ -5601,14 +5604,11 @@ line-height: 30px;
 
 
 /*xs css*/
-
-
-
-@media (max-width:640px) {
+@media (min-width:768px) {
 #pic0{
 		background-image: url(../img/xs/0.jpg);
 
-    padding: 50% 0 0 0;
+    padding: 22.7% 0 0 0;
         background-repeat:  no-repeat;
       background-size:100%;
 	
@@ -5616,7 +5616,7 @@ line-height: 30px;
 	
 	#pic1{
 		background-image: url(../img/xs/1.jpg);
-		padding: 50% 0 0 0;
+		padding: 28.1% 0 0 0;
         background-repeat:  no-repeat;
       background-size: 100%;
 	
@@ -5624,7 +5624,35 @@ line-height: 30px;
 	
 	#pic2{
 		background-image: url(../img/xs/2.jpg);
-		 padding: 50% 0 0 0;
+		 padding: 28.1% 0 0 0;
+        background-repeat:  no-repeat;
+      background-size: 100%;
+	 
+	}
+	
+}
+
+@media (max-width:767px) {
+#pic0{
+		background-image: url(../img/xs/0.jpg);
+
+    padding: 41.5% 0 0 0;
+        background-repeat:  no-repeat;
+      background-size:100%;
+	
+	}
+	
+	#pic1{
+		background-image: url(../img/xs/1.jpg);
+		padding: 52.3% 0 0 0;
+        background-repeat:  no-repeat;
+      background-size: 100%;
+	
+	}
+	
+	#pic2{
+		background-image: url(../img/xs/2.jpg);
+		 padding: 56.2% 0 0 0;
         background-repeat:  no-repeat;
       background-size: 100%;
 	 
@@ -5634,31 +5662,5 @@ line-height: 30px;
 
 
 
-@media (min-width:641px) {
-#pic0{
-		background-image: url(../img/xs/0.jpg);
 
-    padding: 30% 0 0 0;
-        background-repeat:  no-repeat;
-      background-size:100%;
 	
-	}
-	
-	#pic1{
-		background-image: url(../img/xs/1.jpg);
-		padding: 30% 0 0 0;
-        background-repeat:  no-repeat;
-      background-size: 100%;
-	
-	}
-	
-	#pic2{
-		background-image: url(../img/xs/2.jpg);
-		 padding: 30% 0 0 0;
-        background-repeat:  no-repeat;
-      background-size: 100%;
-	 
-	}
-	
-}
-
